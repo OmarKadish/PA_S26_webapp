@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Omar Kadish">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="./script.js"></script>
+    <style>
+        p {
+            color: violet;
+        }
+    </style>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <nav>
+        <b>Navigation Bar:</b><br>
+        <a id="homepage" href="#">Page 1 - Home</a> |
+        <a href="./table.html">Page 2 - Table</a> |
+        <a href="./form.html">Page 3 - Form</a> |
+        <a href="./layout.html">Page 4 - Layout</a>
+    </nav>
+    <hr>
+    <h1>This Is The Main Page</h1>
+    <h3>Author: Omar Kadish</h3>
+
+    <div class="card">
+        <h3 id="greeting_msg">Hello</h3>
+        <p>I'm a Computer Science Student and I work as a Teaching Assistant at the <b>University of Windsor</b>.
+            <br>I'm also a tutor at <strong>Paper Airplanes</strong> in the WIT Program.
+        </p>
+        <h6>Contact Info:</h6>
+        <ul>
+            <li>Email: omarkadish@gmail.com</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <img src="./img1.jpg" width="50%">
+    </div>
+
+
+    <footer>
+        <div>
+            <ul>
+                <li><a onclick="showPage('home')">Home</a></li>
+                <li><a onclick="showPage('table')">Table</a></li>
+                <li><a onclick="showPage('form')">Form</a></li>
+                <li><a onclick="showPage('layout')">Layout</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

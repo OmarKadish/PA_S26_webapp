@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Omar Kadish">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <title>Page 3 - Form</title>
+</head>
+
+<body>
+    <nav>
+        <b>Navigation Bar:</b><br>
+        <a href="./home.html">Page 1 - Home</a> |
+        <a href="./table.html">Page 2 - Table</a> |
+        <a href="#">Page 3 - Form</a> |
+        <a href="./layout.html">Page 4 - Layout</a>
+    </nav>
+    <hr>
+    <h1>This Is a HTML Form</h1>
+    <h3>Author: Omar Kadish</h3>
+
+    <div id="contact-form" class="card">
+        <form id="my_form">
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname">
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob">
+            </div>
+
+            <br>
+            <div>
+                <label for="sex">Male</label>
+                <input type="radio" name="sex" value="Male">
+                <label for="sex">Female</label>
+                <input type="radio" name="sex" value="Female">
+            </div>
+
+            <div>
+                <p>Choose your Favorite Language:</p>
+                <input type="checkbox" class="lang" name="lang" value="HTML">
+                <label for="lang">HTML</label><br>
+                <input type="checkbox" class="lang" name="lang" value="CSS">
+                <label for="lang">CSS</label><br>
+                <input type="checkbox" class="lang" name="lang" value="JS">
+                <label for="lang">JS</label><br>
+            </div>
+
+            <br>
+            <div>
+                <label for="file">Photo:</label>
+                <input type="file" name="file">
+            </div>
+
+            <br>
+            <div>
+                <label for="tel">Tel:</label>
+                <input type="tel" name="tel" required>
+            </div>
+
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+        <h3>Form Submission: </h3>
+        <div id="console_view">Form output will be here...</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
